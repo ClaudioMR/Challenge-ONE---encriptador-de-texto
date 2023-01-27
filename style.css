@@ -21,7 +21,7 @@ main{
     width: 100%;
     height: auto;
     margin-bottom: 50px;
-    background: url(/Imagenes/braille-g47e814dac_1280\ 1.png);
+    background: url(../Imagenes/braille-g47e814dac_1280\ 1.png);
     background-repeat: space;
 
 
@@ -46,7 +46,7 @@ main{
 
 .mensaje{
     background: #D8DFE8;
-    background-image: url(/Imagenes/undraw_the_search_s0xf\ 1.svg);
+    background-image: url(../Imagenes/undraw_the_search_s0xf\ 1.svg);
     background-repeat: no-repeat;
     border: none;
     border-radius:24px;
