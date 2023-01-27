@@ -1,0 +1,140 @@
+/*Estilos globales CSS*/
+*{
+    background: #F4F4F2;
+    font-size: 32px;
+    font-family: 'PT Mono', monospace;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.52px;
+
+}
+
+.logo{
+    padding-top: 20px;
+    margin-left: 10px;
+    width: 8%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+    background: url(/Imagenes/braille-g47e814dac_1280\ 1.png);
+    background-repeat: space;
+
+
+}
+
+/*Area donde ingresamos el texto a encriptar*/
+
+.text-area{
+    border: none;
+    margin-top: 90px;
+    text-transform: lowercase;
+    background: #D8DFE8;
+    border-radius: 24px;
+    box-shadow: 5px 5px 5px -2px #081423db;
+
+}
+
+::placeholder{ color: black;}
+    .text-area:focus{
+    outline: none;
+}
+
+.mensaje{
+    background: #D8DFE8;
+    background-image: url(/Imagenes/undraw_the_search_s0xf\ 1.svg);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius:24px;
+    margin-left:90px;
+    margin-top: 20px;
+    padding-left: 10px;
+    box-shadow: 5px 5px 5px -2px #081423db;
+
+}
+
+.mensaje:focus{
+    outline: none;
+}
+ .botones{
+    display: flex;
+    margin-top: 18px;
+
+ }
+
+ .btn-encriptar{
+    background-color: #081423;
+    border: 1px solid  #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+ }
+
+.btn-encriptar:hover{
+    transform: scale(105%);
+    transition: all .15s ease-out;
+}
+
+ .btn-desencriptar{
+    background-color: #D8DFE8;
+    border: 1px solid  #0A3871;
+    border-radius: 24px;
+    margin-left: 30px;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+
+ }
+
+ .btn-desencriptar:hover{
+    transform: scale(105%);
+    transition: all .15s ease-out;
+}
+
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+ .copiar{
+    border: 1px solid  #0A3871;
+    border-radius: 24px;
+    color:  #0A3871;
+    cursor: pointer;
+    height: 67px;
+    width: 336px;
+    margin-left: 140px;
+    margin-top: 652px;
+    position: absolute;
+ }
+
+ .copiar:hover{
+    transform: scale(95%);
+ }
+
+ .informacion{
+    color: #495057;
+    font-size: 18px;
+ }
+
+/*Estilos para footer*/
+
+.copyright p{
+
+    width: 100%;
+    height: 3rem;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: 'PT Mono', monospace;
+    background-color:#D8DFE8;
+    align-items: center;
+}
