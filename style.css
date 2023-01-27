@@ -138,10 +138,3 @@ main{
     background-color:#D8DFE8;
     align-items: center;
 }
-
-@media screen (min-width: 768px)  {
-    .container{
-        flex-wrap: wrap;
-    }
-    
-}
