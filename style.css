@@ -85,7 +85,7 @@ main{
     background-color: #D8DFE8;
     border: 1px solid  #0A3871;
     border-radius: 24px;
-    margin-left: 30px;
+    margin-left: 10px;
     cursor: pointer;
     height: 67px;
     width: 328px;
@@ -137,4 +137,46 @@ main{
     font-family: 'PT Mono', monospace;
     background-color:#D8DFE8;
     align-items: center;
+}
+
+@media screen and (max-width:900px){
+    
+    header{ 
+        display: flex;
+        justify-content: center;
+    }
+
+    main{
+        flex-wrap:wrap;
+        align-items: flex-end;
+    }
+
+    .text-area{
+        width: 391px;
+        margin-left: 15px;
+    }
+
+    .informacion{
+        font-size: 16px;
+    }
+    
+    .botones{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 1px;
+    }
+
+    .btn-desencriptar{
+        margin-left: 0px;
+    } 
+    
+    .copiar{
+        margin-left: 35px;
+        margin-top: 510px;
+    }
+
+    .mensaje{
+        margin-left: 0px;
+    }
+
 }
